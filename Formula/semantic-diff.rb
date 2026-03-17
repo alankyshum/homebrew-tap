@@ -1,16 +1,16 @@
 class SemanticDiff < Formula
   desc "Terminal diff viewer with AI-powered semantic grouping via Claude CLI"
   homepage "https://github.com/alankyshum/semantic-diff"
-  version "0.7.0"
+  version "0.7.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/alankyshum/semantic-diff/releases/download/v0.7.0/semantic-diff-v0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "40dbb68891f5cbb055cffc8ffb5c811614af912138d02452b1292df09b7d0c99"
+      url "https://github.com/alankyshum/semantic-diff/releases/download/v0.7.1/semantic-diff-v0.7.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4249e934a1e217c0bc99c649b63f5a287a9f35530c99c30bfd6dab7758a65977"
     elsif Hardware::CPU.intel?
-      url "https://github.com/alankyshum/semantic-diff/releases/download/v0.7.0/semantic-diff-v0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1bc90d9d301ab1e3cc154f9c8de7df1ac108c56a70bc7c8982035de0c8b8ac8b"
+      url "https://github.com/alankyshum/semantic-diff/releases/download/v0.7.1/semantic-diff-v0.7.1-x86_64-apple-darwin.tar.gz"
+      sha256 "8a4d1230100b5a22ac67032b277f780335553e4bf9996336cdacb096d098774b"
     end
   end
 
